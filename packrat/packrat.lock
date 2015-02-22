@@ -60,6 +60,17 @@ Source: CRAN
 Version: 0.11.4
 Hash: 1f684f6afd28079e4e609b49f353e49f
 
+Package: RcppEigen
+Source: CRAN
+Version: 0.3.2.3.0
+Hash: 463fd2aa859bcc4df5945d80019753fa
+Requires: Rcpp
+
+Package: SparseM
+Source: CRAN
+Version: 1.6
+Hash: ebefb2caf6ba73d3202d5153db1af0d8
+
 Package: XML
 Source: CRAN
 Version: 3.98-1.1
@@ -74,6 +85,12 @@ Package: bitops
 Source: CRAN
 Version: 1.0-6
 Hash: cb26464a8321628636b547518994c931
+
+Package: car
+Source: CRAN
+Version: 2.0-24
+Hash: 24279ae6abe84550e339dd947b720e05
+Requires: pbkrtest, quantreg
 
 Package: chron
 Source: CRAN
@@ -176,6 +193,12 @@ Source: CRAN
 Version: 0.1.10
 Hash: 7f88a453d0b52e36ea46d9d33c6dcf90
 
+Package: lme4
+Source: CRAN
+Version: 1.1-7
+Hash: 5d7eebc6e96804375f7994ab3d8b269f
+Requires: Rcpp, RcppEigen, minqa, nloptr
+
 Package: lubridate
 Source: github
 Version: 1.4.0.9000
@@ -208,11 +231,22 @@ Source: CRAN
 Version: 0.2
 Hash: 9179db921fcb2e5be44e217042ed06bc
 
+Package: minqa
+Source: CRAN
+Version: 1.2.4
+Hash: bf5030834197a011dc7bc9e117ab8ce3
+Requires: Rcpp
+
 Package: munsell
 Source: CRAN
 Version: 0.4.2
 Hash: fa8af6d040041439b249351e9d16ae9a
 Requires: colorspace
+
+Package: nloptr
+Source: CRAN
+Version: 1.0.4
+Hash: 2197af13ece296fdf1dd8f8a4e5a40e1
 
 Package: nycflights13
 Source: CRAN
@@ -228,6 +262,12 @@ GithubUsername: rstudio
 GithubRef: master
 GithubSha1: 6a0669586f295f4b6336dd973e8b5f970732fc2e
 
+Package: pbkrtest
+Source: CRAN
+Version: 0.4-2
+Hash: d28676d1aaa5a988d968cdcb42661177
+Requires: lme4
+
 Package: plyr
 Source: CRAN
 Version: 1.8.1
@@ -239,10 +279,26 @@ Source: CRAN
 Version: 0.1-7
 Hash: 7559dcd0a9f188351986d0494ec1516d
 
+Package: pocketknife
+Source: github
+Version: 0.1.1
+Hash: 51e669b49c758bbdae8f6101a8d098837965b3c4
+Requires: car, itertools2
+GithubRepo: pocketknife
+GithubUsername: ramhiser
+GithubRef: master
+GithubSha1: 51e669b49c758bbdae8f6101a8d098837965b3c4
+
 Package: proto
 Source: CRAN
 Version: 0.3-10
 Hash: 668a9e87cedbdc5f56c396edf1bd2648
+
+Package: quantreg
+Source: CRAN
+Version: 5.11
+Hash: bac5ce40d7995763543a826ca9f39534
+Requires: SparseM
 
 Package: reshape2
 Source: CRAN

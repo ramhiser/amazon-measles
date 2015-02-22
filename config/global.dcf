@@ -2,10 +2,10 @@ version: 0.6
 data_loading: TRUE
 cache_loading: TRUE
 recursive_loading: FALSE
-munging: TRUE
+munging: FALSE
 logging: FALSE
 load_libraries: TRUE
-libraries: dplyr, rvest, itertools2, stringr, lubridate
-as_factors: TRUE
+libraries: packrat, dplyr, rvest, itertools2, stringr, lubridate, pocketknife, ggplot2
+as_factors: FALSE
 data_tables: FALSE
 attach_internal_libraries: FALSE
