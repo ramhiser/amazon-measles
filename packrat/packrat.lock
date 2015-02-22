@@ -22,6 +22,11 @@ Source: CRAN
 Version: 3.0-1
 Hash: 01ed6aeccc6eda186d88f2bb2cab37e6
 
+Package: NLP
+Source: CRAN
+Version: 0.1-6
+Hash: f290bff8c9846c3e0f851a7aeb6582be
+
 Package: ProjectTemplate
 Source: CRAN
 Version: 0.6
@@ -324,6 +329,11 @@ Version: 0.2-3
 Hash: f9623e82641691dc6d3ee3b44eae2d7c
 Requires: XML, stringr
 
+Package: slam
+Source: CRAN
+Version: 0.1-32
+Hash: 386459f8847d35643302350b84520955
+
 Package: stringi
 Source: CRAN
 Version: 0.4-1
@@ -339,3 +349,15 @@ Source: CRAN
 Version: 0.9.1
 Hash: 8b05e97c7401ae4f8b5dfbaa44cfcf20
 Requires: digest
+
+Package: tm
+Source: CRAN
+Version: 0.6
+Hash: aa73d34f04feed428fc98fbb258d0239
+Requires: NLP, slam
+
+Package: wordcloud
+Source: CRAN
+Version: 2.5
+Hash: fa60e383fc461f55b028ec3ee3101b1f
+Requires: RColorBrewer, Rcpp, slam
